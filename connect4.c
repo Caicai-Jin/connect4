@@ -3,6 +3,13 @@
 #include <stdbool.h>
 
 
+// Connect 4 is a game played by 2 players on a 6 by 7 grid. 
+//Players take turns placing a piece in a column and that piece then descends to the lowest unoccupied space in the column. 
+//A player wins once four of their pieces form a straight line—either horizontally, vertically, or diagonally. 
+//In this question you will provide an implementation of Connect 4 in C. The game board will be represented by a 6 by 7 multi-dimensional char array with 
+//the first player being represented by 'X', 
+//the second player represented by 'O', and any other character representing an open space.
+
 bool make_move(char board[6][7], int column, char player);
 bool check_win(char board[6][7], char player);
 
